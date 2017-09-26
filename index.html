@@ -334,7 +334,7 @@
       </ul>
       <p>
         Back To Top  <a href="#wrapper" class="gototop"><i class="fa fa-chevron-up fa-2"></i></a><br>
-        <!--<span id="count" title="507935 PV since this version">131</span> Pageviews Till Now<br>-->
+        <span id="count">131</span> Pageviews Till Now<br>
         <br>
         Designed and developed by James Qiu.<br>
         Copyright © 2017 jamesqiu.com. All Rights Reserved.
@@ -423,8 +423,26 @@ $(document).ready( function() {
       //setTimeout("",delay*10) 
     } else setTimeout("scrollit()",delay)       
   }
-  scrollit() //调用scrollit()函数
+  scrollit()
 </script>
+
+<!-- counting total website visitors -->
+<!--<script>
+  // read from file
+  var txtFile = "count.txt";
+  var file = new File(txtFile);
+  file.open("r");
+  var str = file.readln();
+  file.close();
+  file = new File(txtFile);
+  file.open("w");
+  var num = parseInt(str);
+  num++;
+  document.getElementById("count").innerHTML = "" + num;
+  // write to file
+  file.writeln(num+"");
+  file.close();
+</script>-->
 
 </body>
 </html>
