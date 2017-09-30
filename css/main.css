@@ -894,7 +894,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	background:#fafafa;
 	border-bottom:solid 2px #ccc1cd !important;
 	color:#805183;
-	text-transform:uppercase;
 	padding:15px 30px;
 	border:none;
 	margin-bottom:30px;
@@ -904,7 +903,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .conForm textarea{
 	background:#fafafa;
 	color:#805183;
-	text-transform:uppercase;
 	border-bottom:solid 2px #ccc1cd !important;
 	padding:15px 30px;
 	border:none;
