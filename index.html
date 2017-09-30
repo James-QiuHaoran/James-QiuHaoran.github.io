@@ -60,7 +60,7 @@
                         <li class="menuItem active"><a href="#wrapper">Home</a></li>
                         <li class="menuItem"><a href="#aboutus">About Me</a></li>
                         <li class="menuItem"><a href="http://www.jianshu.com/u/97ea3334c205">Blog</a></li>
-                        <li class="menuItem"><a href="#skillset">Skills</a></li>
+			<li class="menuItem"><a href="visited_countries.html">My Footprint</a></li>
                         <li class="menuItem"><a href="#experience">Experience</a></li>
                         <li class="menuItem"><a href="#education">Education</a></li>
                         <li class="menuItem"><a href="#contact">Contact</a></li>
@@ -349,7 +349,7 @@
         <span id="count">131</span> Page-views Till Now<br>
         <br>
         Designed and developed by James Qiu.<br>
-        Copyright © 2017 jamesqiu.com. All Rights Reserved.
+        Copyright © 2017 jamesqiu.io. All Rights Reserved.
         <br><br><br><br>
       </p>
     </div>
@@ -439,22 +439,17 @@ $(document).ready( function() {
 </script>
 
 <!-- counting total website visitors -->
-<!--<script>
-  // read from file
-  var txtFile = "count.txt";
-  var file = new File(txtFile);
-  file.open("r");
-  var str = file.readln();
-  file.close();
-  file = new File(txtFile);
-  file.open("w");
-  var num = parseInt(str);
-  num++;
-  document.getElementById("count").innerHTML = "" + num;
-  // write to file
-  file.writeln(num+"");
-  file.close();
-</script>-->
-
+<script>
+  function readTextFile(file) {
+	var rawFile = new XMLHttpRequest();
+	rawFile.open("GET", file, false);
+	rawFile.onreadystatechange = function() {
+		if (rawFile.readyState == 4 && rawFile.status == 200) {
+			return rawFile.responseText;
+		}
+	}
+	rawFile.send(null);
+  }  
+</script>
 </body>
 </html>
