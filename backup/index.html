@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Metas Page details-->
+<title>James Qiu @HKU</title>
+<meta name="description" content="Personal Website">
+<meta name="author" content="James, Qiu Haoran">
+<!-- Mobile Specific Metas-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- icon -->
+<link rel="apple-touch-icon-precomposed" href="images/me-img.jpg" />
+<link rel="shortcut icon" href="images/icon_website.ico" />
+<link rel="icon" href="images/icon_website.ico" />
+<!--main style-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+<!--google font style-->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+<!--font-family: 'Metrophobic', serif;-->
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic' rel='stylesheet' type='text/css'> 
+<!--font-family: 'Open Sans', sans-serif;-->
+<!--font icon css style-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--animation-->
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/animate.min.css">
+</head>
+
+<body onLoad="load()" onUnload="GUnload()">
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status"></div>
+</div>
+<!--wrapper start-->
+<div class="wrapper noGap" id="wrapper">
+
+<!--Header start -->
+<header>
+  	<!--menu start-->
+    <div class="menu">
+    <a href="#" class="nav-icon" id="nav-show"><i class="fa fa-bars"></i></a>
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+              	<!--<div class="logo">logo</div> -->
+                <div class="navArea"><a href="#" class="closeMenu"><i class="fa fa-times"></i></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                     <!-- <a class="navbar-brand" href="#">Menu</a>  --></div>
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                        <li class="menuItem"><a href="#aboutus">About Me</a></li>
+                        <li class="menuItem"><a href="http://www.jianshu.com/u/97ea3334c205">Blog</a></li>
+			<li class="menuItem"><a href="myfootprint.html">My Footprint</a></li>
+                        <li class="menuItem"><a href="#experience">Experience</a></li>
+                        <li class="menuItem"><a href="#education">Education</a></li>
+                        <li class="menuItem"><a href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+      </div>
+    </div>
+    <!--menu end-->
+
+    <!--banner start-->
+    <div class="banner row" id="banner">
+      <div class="bannerText">
+        <!--output "Hi, I'm James"-->
+        <h1 id="demo"></h1>
+        <h3 class="wow pulse bg-red" data-wow-iteration="4" data-wow-duration="1s">Currently A Computer Science Undergraduate At HKU</h3>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%"> 
+        <!--background slide show start-->
+        <div class="slide"> 
+          <img src="images/header-image/wallpaper1_resized.jpg" alt="image01"> </div>
+        <div class="slide"> 
+          <img src="images/header-image/wallpaper2_resized.jpg" alt="image01"> </div>
+        <!--background slide show end-->
+      </div>
+    </div>
+    <!--banner end--> 
+    
+  </header>
+  <!--Header end -->
+  
+ <!--about us start-->
+  <section class="aboutus" id="aboutus">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+      	  <div class="heading">
+            <h2>About me</h2>
+            <h3>A Small Introduction About Myself</h3>        
+          </div>
+        </div> 
+      </div> 
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media">
+          <div class="wow swing bg-purple" data-wow-duration="1s">
+            <img src="images/me-img.JPG" alt="">
+          </div>
+        </div>
+      	<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media wow slideInLeft" data-wow-duration="1.5s">
+        	<h5>James, Qiu Haoran</h5>
+          <h4>Software Developer &amp; Computer Science Undergraduate from China</h4>
+          <p>I come from Qingdao, which is a beautiful coastal city in the north of China. Currently, I'm a penultimate year student studying Comeputer Science at the University of Hong Kong. I've been keen on coding since I was young. Digging technologies and challenges are always my favorites. I love playing basketball with my bros and watching NBA games. Go Cavalier!!</p>
+	  <p>I'm interested in systems and networking. I'm contributing to a networking related project - Self-driving System in UW-Madison. My supervisor is <a href="http://pages.cs.wisc.edu/~suman/" class="people" style="color: #5b4c5c;">Prof. Suman Banerjee</a>. I was working with <a href="http://i.cs.hku.hk/~heming" class="people" style="color: #5b4c5c;">Dr. Heming Cui</a> on systems and networking in the Department of Computer Science. Welcome to contact me and discuss!</p>
+          <p><a role="button" class="btn btn-primary btn-lg" href="resume/Resume_QiuHaoran.pdf">Download Printable Resume</a></p>
+        </div>
+      </div>     
+    </div>    
+  </section>
+  <!--about us end--> 
+  <!--Skillset start-->
+  <section id="skillset" class="skillset">
+  	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+               <div class="heading">
+                <h2>Skills &amp; Expertice</h2>
+                <h3>I can say I’m quite good at</h3>        
+              </div>
+            </div>
+            <div class="col-md-12">
+            	<div class="col-md-6 col-sm-12 media wow rollIn bg-red" data-wow-duration="1.5s">
+              	<p>I've learned general fundamentals of Computer Science: Algorithms, Data Structures, Operating Systems, Database, System Architecture and Distributed Computing. Apart from these, OOP(I'm the TA of this course ^_^) and Functional Programming are also my thing. Currently, I'm getting my hand dirty on distributed systems, cloud computing and ML.</p>
+                <p>About tools &amp; techniques, I'm familiar with Linux, LaTex, CSS+HTML+JS, Bootstrap, CakePHP, DevOps. I can work with C/C++, Java, Python, Haskell and Matlab. I'm a native Chinese speaker with professional English proficiency and basic Cantonese ability.</p>
+                <p>
+                  <a class="btn btn-primary btn-lg" href="https://github.com/James-QiuHaoran" style="background-color:#5b5d60; border-color:#5b5d60">My Workstation</a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a class="btn btn-primary btn-lg" href="http://www.jianshu.com/u/97ea3334c205" style="background-color:#5b5d60; border-color:#5b5d60">My Blog</a>
+                </p>
+              </div>
+            	<div class="col-md-6 col-sm-12">                
+                <div class="skillbar clearfix " data-percent="94%">
+                    <div class="skillbar-title"><span>Analytical Ability</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="86%">
+                    <div class="skillbar-title"><span>OOP</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="68%">
+                    <div class="skillbar-title"><span>HTML / CSS</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                
+                <div class="skillbar clearfix " data-percent="52%">
+                    <div class="skillbar-title"><span>Distributed System</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                <div class="skillbar clearfix " data-percent="74%">
+                    <div class="skillbar-title"><span>Functional Programming</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->             
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Skill Set end-->
+  <!--Work Experties start -->
+  <section id="experience" class="myexperties">
+  	<div class="container">
+        <div class="heading">
+        <h2>Work Experience</h2>
+        <h3>Challenge · Creativity · Teamwork · Communication</h3>        
+      </div>
+	<div class="row media wow fadeInLeft" data-wow-duration="1.4s">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	June, 2018<br>August, 2018
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Credit Suisse Group, Technology Division</h4>
+                <h5>Software Engineer</h5>
+                <p>Upcoming Summer.</p>
+                <p>Innovation and Automation Team.</p>
+		<p>Designing and building the tools and systems that respond to clients' changing needs.</p>
+	    </div>
+        </div>
+        <div class="row media wow fadeInLeft" data-wow-duration="1.4s">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	August, 2017<br>December, 2017
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Department of Computer Science, University of Hong Kong</h4>
+                <h5>Research Assistant - Systems and Networking</h5>
+                <p>- Plover: Fast Virtual Machine fault-tolerance. Designed algorithm to decide the appropriate time to do synchronization. Build and evaluate on a number of Web Services. Paper published on NSDI 2018.</p>
+		<p>- OWL: Concurrency attack detector and analysis tool. Published <a href="http://seclists.org/oss-sec/2017/q4/181" style="color: #5b4c5c;">CVE 2017-12193</a> upon Linux Kernel key subsystem. Evaluate model on Apache, MySQL, and Linux Kernel. Paper published on DSN 2018.</p>
+            </div>
+        </div>
+        <div class="row media wow fadeInLeft" data-wow-duration="1.5s">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	July, 2017<br>August, 2017
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Hututa Technologies Ltd.</h4>
+                <h5>Software Engineer</h5>
+                <p>- Research and develop the advanced computing systems for cloud and data-intensive computation.<br>- Compute cluster hardware and software maintenance and management.<br>- Tools &amp; Languages Used: C, GNU/Linux Operation</p>
+            </div>
+        </div>
+        <div class="row media wow fadeInRight" data-wow-duration="1.7s">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	June, 2016<br>August, 2016
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>XNode | Startup Accelerator &amp; Coworking Space</h4>
+                <h5>Web Programmer &amp; IT Assistant</h5>
+                <p>- Website development and testing. Added an online meeting room booking function.<br>- Internal system development. Added tag to client-staff network to facilitate searching.<br>- Helped with technical problems in the company.<br>- Tools &amp; Languages Used: PHP, CSS+HTML+JS, CakePHP Framework, MySQL, WAMP Environment.</p>
+            </div>
+        </div>
+        <div class="row media wow fadeInLeft" data-wow-duration="1.5s">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	October, 2015<br>October, 2016
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Chinese Culture Communication Association, HKU</h4>
+                <h5>IT Director</h5>
+                <p>- Organized Chinese culture related activities both on campus and off the campus like Chinese Culture Night, Chess Competition, etc.<br>- Managed the Wechat platform. Published article on it. The number of our describers increased more than 700 during the year.<br>- Helped with technical problems during the activities.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Work Experties end -->
+  <!--<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>-->
+  <!--Education & diploma start -->
+  <section id="education" class="educationdiploma">
+  	<div class="container">
+        <div class="heading">
+        <h2>Education &amp; Diplomas</h2>
+        <h3>Always Stay Fool and Keep Learning</h3>        
+        </div>
+        
+        <div class="row media wow flipInX bg-purple">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	September, 2015<br>Till Now
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Bachelor of Engineering</h4>
+                <h5>The University of Hong Kong, HK</h5>
+                <p>Major in <strong>Computer Science</strong>, CGPA: 4.0/4.3<br>
+                   Minor in <strong>Mathematics</strong><br>
+		   Related Courses: Data Structure and Algorithms, Discrete Mathematics, Computer Organization, Programming Tools and Techniques, Functional Programming, Object Oriented Programming (<b>Teaching Assistant</b> of this course), Distributed Computing and System Design, Operating Systems, Database Management and Design, Artificial Intelligence.
+                </p>
+            </div>
+        </div>
+        <div class="row media wow flipInX bg-purple">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	January, 2017<br>June, 2017
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>International Exchange Program, College of Engineering</h4>
+                <h5>University of Wisconsin - Madison, USA</h5>
+		<p>Lee Shau Kee Scholarships for Student Enrichment</p>
+                <p>It's nice to have such a great experience here as a badger!</p>
+		<p>I'm working on a project - Self-driving System in the WINGS group of Prof. Suman Banerjee. In this network related project, we are going to solve a problem: send real-time video to remote server and let human to control the self-driving car remotely in special cases when the vehicle cannot drive by itself.</p>
+            </div>
+        </div>
+        <div class="row media wow flipInX bg-purple">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	July, 2013<br>June, 2015
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Graduation Degree of High School</h4>
+                <h5>Jiaozhou No.1 Senior High School, Qingdao</h5>
+                <p>Those two years is the most crazy period of time in my student life. Getting up at five and going to bed at the midnight, I don't know how I survived that time. All I remember is that, I learned really really hard (so that I could graduate one year earlier), met a group of good friends, was taught by so many kind teachers. Thanks to all of you, very very much!</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Education & diploma end -->
+  
+  <!--contact start-->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="heading">
+        <h2>Get In Touch</h2>
+        <!--<h3>Pok Fu Lam Rd #109, Hong Kong &nbsp;&nbsp;&nbsp;
+            <img src="images/Gmail.jpg" alt=""> e-Mail: jamesqiu@hku.hk &nbsp;&nbsp;&nbsp;
+            <img src="images/Phone.jpg" alt=""> Phone: (+852)54944498</h3>-->
+            <h3><i class="fa fa-home"></i> Suen Chi Sun Hall 611B, Pok Fu Lam Rd #109</h3>
+            <h3><i class="fa fa-envelope"></i> jamesqiu@hku.hk/jamesqiu.hkuccc@gmail.com</h3>
+            <h3><i class="fa fa-phone"></i> +852 5494 4498</h3>
+      </div>
+    </div>
+    <!--google map start
+    <div class="row mapArea">
+     <div id="map" style="width: 100%; height: 100%"></div> 
+    </div> 
+    google map end--> 
+  </section>
+  <section class="contactDetails">
+    <div class="container"> 
+    <div class="heading">
+        <h2>Drop A Message</h2>
+        <h3>Please feel free to leave a message if you'd like to have a chat!</h3>       
+      </div>
+      <!--contact form start-->
+      <div class="row media">      	 
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 conForm text-center">
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your name" >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-8 col-lg-8 noMarr" placeholder="Your email" >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your message"></textarea>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="submit" id="submit" name="send" class="submitBnt" value="Send message"></div>
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+      </div>
+      <!--contact form end--> 
+    </div>
+  </section>  
+  <!--contact end--> 
+  
+  <!--footer start-->
+  <section class="footer" id="footer">
+    <div class="container">
+      <ul>
+        <li><a href="https://github.com/James-QiuHaoran"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://www.facebook.com/haoran.qiu.10"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/jamesqhr/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        <li><a href="http://weibo.com/6094909021/info"><i class="fa fa-weibo fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/Jamessss_Qiu"><i class="fa fa-twitter fa-2x"></i></a></li>
+      </ul>
+      <p>
+        Back To Top  <a href="#wrapper" class="gototop"><i class="fa fa-chevron-up fa-2"></i></a><br>
+	<!--<span id="count">131</span> Page-views Till Now<br>-->
+        <br>
+        Designed and developed by James Qiu.<br>
+        Copyright © 2017 jamesqiu.io. All Rights Reserved.
+        <br><br><br><br>
+      </p>
+    </div>
+  </section>
+  <!--footer end-->     
+  </div>
+<!--wrapper end--> 
+
+<!--modernizr js--> 
+<script type="text/javascript" src="js/modernizr.custom.26633.js"></script> 
+<!--jquary min js--> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!--for placeholder jquery--> 
+<script type="text/javascript" src="js/jquery.placeholder.js"></script> 
+
+<!--for header jquery--> 
+<script type="text/javascript" src="js/stickUp.js"></script> 
+<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'aboutus',
+		  2: 'skillset',
+		  3: 'experience',
+		  4: 'education',
+		  5: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	});
+	
+
+});
+</script>
+<script>
+	$('#banner').superslides({
+	  animation: 'fade',
+	  play: 5000
+	});
+</script>  
+
+<!--for portfolio jquery--> 
+<script src="js/jquery.isotope.js" type="text/javascript"></script> 
+<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+<link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> 
+<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script> 
+
+<!--contact form js--> 
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+<script src="js/jquery.easing.js"></script> 
+<script src="js/jquery.mousewheel.js"></script> 
+<script defer src="js/slideroption.js"></script> 
+
+<!--for theme custom jquery--> 
+<script src="js/custom.js"></script>
+
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+<!--Output like someone type it on the keyboard-->
+<script defer>
+  var text="Hi, I'm James"  //预定文字
+  var delay=200             //文字出现的时间间隔
+  var i=0                   //初始化变量 i
+  function scrollit(){
+    //设置 id 为 demo 的对象内的文字为从变量 text 的 0 开始到 i 间的文字加"_"
+    demo.innerText=text.slice(0,i++)
+    if(i>text.length){        //当 i 大于 text 的文本长度时
+      i=0                     //重设 i 为 0，使文字重新从第一个文字出现
+      //延时执行scrollit()函数,delay*10是为了让显示完整文字的时间长一点
+      //setTimeout("",delay*10) 
+    } else setTimeout("scrollit()",delay)       
+  }
+  scrollit()
+</script>
+
+<!-- counting total website visitors -->
+<script>
+  function readTextFile(file) {
+	var rawFile = new XMLHttpRequest();
+	rawFile.open("GET", file, false);
+	rawFile.onreadystatechange = function() {
+		if (rawFile.readyState == 4 && rawFile.status == 200) {
+			return rawFile.responseText;
+		}
+	}
+	rawFile.send(null);
+  }  
+</script>
+</body>
+</html>
