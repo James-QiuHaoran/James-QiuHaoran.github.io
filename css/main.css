@@ -418,7 +418,7 @@ header{
 .aboutus img {
 	padding:7px;
 	display:block;
-	border:1px solid #bab4bb;
+	border:0px solid #bab4bb;
 }
 .aboutus .heading p{
 	padding-bottom:41px;
@@ -446,11 +446,6 @@ header{
 .people:link {
 	text-decoration: none;
 	color: #5b4c5c;
-}
-
-#footprint {
-	border: 0px;
-	width: 115%;
 }
 
 .inst {
