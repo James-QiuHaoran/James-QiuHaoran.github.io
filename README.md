@@ -1,5 +1,7 @@
 # James-QiuHaoran.github.io
 
+## (Website moved to haoranqiu.web.illinois.edu)
+
 ## Brief Intro
 
 This is my personal website using bootstrap. The website URL is: https://james-qiuhaoran.github.io/index.html.
