@@ -2,7 +2,7 @@
 
 ## Notice - Website Migration
 
-This website [james-qiuhaoran.github.io](james-qiuhaoran.github.io) has been migrated and also updated to another website [haoranqiu.web.illinois.ed](haoranqiu.web.illinois.edu). The old website has been serving for a long time until I went to UIUC.
+This website james-qiuhaoran.github.io has been migrated and also updated to another website haoranqiu.web.illinois.edu. The old website has been serving for a long time until I went to UIUC.
 
 I plan to keep the old website here in this repository and won't update anything any more. However, the website framework is free to use.
 
