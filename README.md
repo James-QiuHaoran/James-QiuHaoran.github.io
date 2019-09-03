@@ -2,9 +2,11 @@
 
 ## Notice - Website Migration
 
-This website https://james-qiuhaoran.github.io has been migrated, updated (and perhaps redirected) to another website https://haoranqiu.web.illinois.edu. The old website has been serving for a long time until I went to UIUC.
+This website https://james-qiuhaoran.github.io has been migrated, updated (and perhaps redirected) to another website https://haoran-qiu.com (also https://haoranqiu.web.illinois.edu). The old website has been serving for a long time until I went to UIUC.
 
-I plan to keep the old website here in this repository and won't update anything any more. However, the website framework is free to use.
+I plan to keep the old website here in this repository and won't update anything any more. However, the website framework is free to use. If you like it, change it to serve as your personal website!
+
+---
 
 ## Brief Intro
 
