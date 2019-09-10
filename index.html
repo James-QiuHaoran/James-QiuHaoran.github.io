@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <!-- Metas Page details-->
-<title>James, Haoran Qiu @HKU</title>
+<title>James, Haoran Qiu @UIUC</title>
 <meta name="description" content="Haoran Qiu's Personal Website">
 <meta name="author" content="James, Qiu Haoran">
 <!-- Mobile Specific Metas-->
@@ -27,6 +27,14 @@
 </head>
 
 <body onLoad="load()" onUnload="GUnload()">
+
+<!-- website redirection confirmation -->
+<script>
+	if (confirm("This website is stopped being updated but kept only for memory. Go to my new personal website?")) {
+    	window.location = "https://haoran-qiu.com";
+  	} else {}
+</script>
+
 <!-- Preloader -->
 <div id="preloader">
     <div id="status"></div>
@@ -75,7 +83,7 @@
       <div class="bannerText">
         <!--output "Hi, I'm James"-->
         <h1 id="demo"></h1>
-        <h3 class="wow pulse bg-red" data-wow-iteration="4" data-wow-duration="1s">CS PhD Student at UIUC <br> (New version of the website is coming, this old website is up to my bachelor in HKU.)</h3>
+        <h3 class="wow pulse bg-red" data-wow-iteration="4" data-wow-duration="1s">CS PhD Student at UIUC <br> (This website is stopped being updated, please visit my new website: <a href="haoran-qiu.com">haoran-qiu.com</a>)</h3>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%"> 
         <!--background slide show start-->
@@ -295,8 +303,8 @@
 <script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
 jQuery(function($) {
-$(document).ready( function() {
-  //enabling stickUp on the '.navbar-wrapper' class
+$(document).ready(function() {
+  	//enabling stickUp on the '.navbar-wrapper' class
     $('.navbar-wrapper').stickUp({
         parts: {
           0: 'banner',
@@ -311,8 +319,6 @@ $(document).ready( function() {
         topMargin: 'auto'
         });
     });
-    
-
 });
 </script>
 <script>
@@ -374,5 +380,6 @@ $(document).ready( function() {
     rawFile.send(null);
   }  
 </script>
+
 </body>
 </html>
