@@ -4,11 +4,13 @@
 
 This website https://james-qiuhaoran.github.io has been migrated, updated (and perhaps redirected) to another website https://haoran-qiu.com (also https://haoranqiu.web.illinois.edu). The old website has been serving for a long time until I went to UIUC.
 
-I plan to keep the old website here in this repository and won't update anything any more. However, the website framework is free to use. If you like it, change it to serve as your personal website!
+I plan to keep the old website here in this repository (index.html.old) and won't update anything any more. However, the website framework is free to use. If you like it, change it to serve as your personal website!
+
+- index.html now is a redirection html file.
 
 ---
 
-## Brief Intro
+## Brief Intro (OLD)
 
 This is my personal website using bootstrap. The website URL is: https://james-qiuhaoran.github.io/index.html.
 
